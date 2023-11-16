@@ -12,14 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2023_10_14_141125) do
 
-  create_table "comics", force: :cascade do |t|
-    t.string "question"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "sindans", force: :cascade do |t|
-    t.string "question"
+    t.string "question1"
+    t.string "question2"
+    t.string "question3"
+    t.string "question4"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

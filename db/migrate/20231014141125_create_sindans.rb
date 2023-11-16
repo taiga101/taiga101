@@ -1,7 +1,10 @@
 class CreateSindans < ActiveRecord::Migration[6.1]
   def change
     create_table :sindans do |t|
-      t.string :question
+      t.string :question1
+      t.string :question2
+      t.string :question3
+      t.string :question4
 
       t.timestamps
     end
